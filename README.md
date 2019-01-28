@@ -20,5 +20,5 @@ The rules implemented are:
 
 
 **** TROUBLESHOOTING ****
-If you experience error: "/bin/bash^M: bad interpreter: No such file or directory" it is because the script was created in a Windows environment. You can port this over to Unix compatibility by using this command:
-sed -i -e 's/\r$//' scriptname.sh
+If you experience error: "/bin/bash^M: bad interpreter: No such file or directory" it is because the script was created in a Windows environment. You can port this over to Unix compatibility by using the following command:
+`sed -i -e 's/\r$//' scriptname.sh`
